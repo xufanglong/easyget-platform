@@ -1,0 +1,19 @@
+server:
+  port: 8000
+
+
+spring:
+  cloud:
+    consul:
+      host: 47.111.103.200
+      port: 8500
+      discovery:
+        service-name: ES-SERVER
+        tags: ceshi
+  application:
+    name: Es-sever
+
+  ### ES配置需添加
+  elasticsearch:
+    rest:
+      uris:
