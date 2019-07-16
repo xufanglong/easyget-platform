@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>easye-web-plugin</module>
+        <module>easye-web-plugins</module>
     </modules>
 
 
